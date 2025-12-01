@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+* {
+    font-family: '游ゴシック', 'Yu Gothic';
+}
+
+header {
+    background-color: #9c9aff;
+}
+
+footer {
+    background-color: #474963;
+}
+
+header,
+footer {
+    color: white;
+}
