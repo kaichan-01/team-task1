@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+.topimage {
+    width: 100%;
+    height: 640px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.NEWS {
+    margin-top: 32px;
+    text-align: center;
+    font-size: 48px;
+    background-color: #fff0fa;
+    padding: 16px;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff0fa;
+    padding-bottom: 16px;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-right: 24px;
+}
+
+.news {
+    flex: 1;
+    text-align: center;
+}
+
+.news img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.profile-section,
+.history-section,
+.songs-section,
+.link-section {
+    width: 100%;
+    max-width: 960px;
+    margin: 64px auto;
+    padding: 32px;
+    background: #fff0fa;
+    border-radius: 16px;
+}
+
+.profile-section h2,
+.history-section h2,
+.songs-section h2,
+.link-section h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.members {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.member {
+    width: 40%;
+    text-align: center;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.sns-links {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.sns-btn {
+    background: #ff99cc;
+    padding: 16px 32px;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.history-timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.history-item {
+    background: #ffffff;
+    border-left: 8px solid #ff99cc;
+    padding: 24px 32px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+}
+
+.history-item .year {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff66aa;
+    margin-bottom: 8px;
+}
+
+.history-item p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.songs-section .song-item {
+    display: flex;
+    align-items: center;
+    background: #ffe3ee;
+    border-radius: 12px;
+    margin: 24px 0;
+    padding: 16px;
+    gap: 24px;
+    height: 200px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.songs-section .song-item img {
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.songs-section .song-info h3 {
+    margin: 0 0 12px;
+    font-size: 1.4rem;
+}
+
+.songs-section .song-info p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
