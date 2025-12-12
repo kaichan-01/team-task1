@@ -4,7 +4,6 @@
     font-family: '游ゴシック', 'Yu Gothic';
     margin: 0;
     padding: 0;
-
 }
 
 header {
@@ -62,7 +61,6 @@ footer {
 .Recommendations {
     display: flex;
     justify-content: center;
-    gap: 32px;
 }
 
 .recommendation {
@@ -86,5 +84,4 @@ footer {
     width: 360px;
     height: 240px;
     object-fit: contain;
-    
 }
