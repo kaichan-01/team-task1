@@ -16,21 +16,6 @@
     padding: 16px;
 }
 
-.carousel {
-    width: 100%;
-    overflow: hidden;
-    background-color: #fff0fa;
-    padding-bottom: 16px;
-}
-
-.carousel-track {
-    display: flex;
-    gap: 0;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    margin-right: 24px;
-}
 
 .news {
     flex: 1;
